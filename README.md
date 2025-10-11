@@ -71,6 +71,9 @@ Friday includes a simple voice authentication system:
 - Secure AI Access – Prevents unauthorized voice access while keeping interactions natural.
 - Voice data is processed locally — not sent to external APIs for privacy.
 
+### Drawback:
+This model hallucinates at times and so the accuracy drops. 
+
 ## Future Enhancements
 Planned features for the next version of Friday:
 **Live Video Stream Processing:** Capture video or webcam feed in real time and provide live narration or scene understanding.

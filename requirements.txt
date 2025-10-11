@@ -1,4 +1,8 @@
-requests
-Pillow
 transformers
-openai-whisper
+accelerate
+flash_attn
+torch
+Pillow
+gtts
+SpeechRecognition
+gradio

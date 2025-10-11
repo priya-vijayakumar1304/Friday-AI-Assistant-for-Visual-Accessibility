@@ -40,13 +40,13 @@ cd Friday-AI-Assistant
 pip install -r requirements.txt
 ```
 ### 3. Load and Save the Model
-Open load_model_and_save.ipynb in Google Colab and run all cells.
+Open `load_model_and_save.ipynb` in Google Colab and run all cells.
 This notebook will:
-Download the pretrained llava-hf/llava-interleave-qwen-0.5b-hf model
+Download the pretrained `llava-hf/llava-interleave-qwen-0.5b-hf` model
 Save it locally in a specified directory (for faster access)
 
 ### 4. Run the App
-Open app.ipynb in Colab and run the cells to:
+Open `app.ipynb` in Colab and run the cells to:
 - Load the locally saved model
 - Launch a Gradio interface for text and image interaction
 You’ll get a public Gradio link to interact with Friday directly from your browser.

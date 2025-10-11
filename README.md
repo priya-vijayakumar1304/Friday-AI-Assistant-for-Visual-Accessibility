@@ -14,7 +14,7 @@ This project demonstrates **loading, saving and deploying** the `llava-hf/llava-
 ## Project structure:
 ```
 ├── load_model_and_save.ipynb # Loads and saves the LLaVA model locally
-├── app.ipynb # Deploys the model using a Gradio interface
+├── app.ipynb # Loads the saved model, adds voice features & Gradio frontend
 ├── requirements.txt # List of dependencies
 └── README.md # Project documentation
 ```
@@ -25,8 +25,20 @@ This project demonstrates **loading, saving and deploying** the `llava-hf/llava-
 - **Frameworks:**  
   - [Transformers (Hugging Face)](https://github.com/huggingface/transformers)  
   - [PyTorch](https://pytorch.org/)  
-  - [Gradio](https://gradio.app/)  
+  - [Gradio](https://gradio.app/)
+  - [SpeechRecognition](https://pypi.org/project/SpeechRecognition/) for voice commands  
+  - [gTTS](https://pypi.org/project/gTTS/) or [pyttsx3](https://pypi.org/project/pyttsx3/) for text-to-speech feedback   
 - **Dependencies:** Listed in `requirements.txt`
+
+## Key Features
+
+- **Multimodal Interaction:** Combine **audio + image** input for smarter responses.  
+- **Voice Command Support:** Control Friday with spoken commands.  
+- **Voice Registration & Verification:** Securely register your voice and authenticate before running actions.  
+- **Local Model Loading:** Faster inference by loading saved models from disk.  
+- **Low Latency Deployment:** Uses locally saved model and GPU acceleration for real-time responses.  
+
+---
 
 ##  Setup & Usage Instructions
 Change the runtime to T4 GPU in google colab
@@ -49,7 +61,34 @@ Save it locally in a specified directory (for faster access)
 ### 4. Run the App
 Open `app.ipynb` in Colab and run the cells to:
 - Load the locally saved model
-- Launch a Gradio interface for text and image interaction
+- Launch a Gradio interface for audio and image interaction
 You’ll get a public Gradio link to interact with Friday directly from your browser.
 
+### Voice Registration & Verification
+Friday includes a simple voice authentication system:
+- Register your voice – Speak a chosen phrase to create a unique voice profile.
+- Verify on command – Friday compares your live voice to the registered one before executing actions.
+- Secure AI Access – Prevents unauthorized voice access while keeping interactions natural.
+- Voice data is processed locally — not sent to external APIs for privacy.
+
+## Future Enhancements
+Planned features for the next version of Friday:
+**Live Video Stream Processing:** Capture video or webcam feed in real time and provide live narration or scene understanding.
+**Object & Text Detection:** Integrate OCR and object detection for richer visual context.
+**Continuous Listening Mode:** Enable wake-word detection (e.g., “Hey Friday”) for a hands-free experience.
+**Offline Mode / Edge Deployment:** Optimize the model to run efficiently on edge devices for offline accessibility.
+**Multilingual Support:** Expand voice and text capabilities to multiple languages.
+
+## Acknowledgments
+
+- **[Hugging Face](https://huggingface.co)** - LLaVA model  
+- **[Gradio](https://gradio.app)** - user interface  
+- **[Google Colab](https://colab.research.google.com)** - GPU runtime support  
+- **[SpeechRecognition](https://pypi.org/project/SpeechRecognition/)** - voice handling
+
+ ## License
+
+This project is licensed under the [**MIT License**](https://opensource.org/licenses/MIT) - feel free to use and modify it for your own research or applications.
+
+---
 

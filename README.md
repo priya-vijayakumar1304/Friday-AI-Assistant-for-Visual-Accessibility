@@ -6,4 +6,4 @@ This application assists visually impaired users by describing their surrounding
 It aims to create independence by enabling users to understand their environment, powered by AI-driven image captioning and text-to-speech (TTS) technologies.
 
 ## Demo
-[![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://youtu.be/4nwuTbgo8pY)
+https://www.youtube.com/watch?v=4nwuTbgo8pY

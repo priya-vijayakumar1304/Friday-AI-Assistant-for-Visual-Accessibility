@@ -11,3 +11,5 @@ Visually impaired individuals often rely on external assistance to understand th
 How can we provide a low-cost, real-time, voice-interactive system that describes a user's surroundings using just a smartphone camera and AI-based scene understanding?
 ### Goal:
 To create an accessible mobile/web app that listens to voice commands, captures scenes, generates meaningful descriptions using computer vision, and delivers responses audibly in real time.
+
+https://drive.google.com/file/d/1uo3vd6XRiNoLkBBqAghX51bVPaTcoUuP/view?usp=sharing

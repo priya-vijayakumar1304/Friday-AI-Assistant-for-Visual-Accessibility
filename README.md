@@ -85,6 +85,7 @@ Planned features for the next version of Friday:
 - **[Gradio](https://gradio.app)** - user interface  
 - **[Google Colab](https://colab.research.google.com)** - GPU runtime support  
 - **[SpeechRecognition](https://pypi.org/project/SpeechRecognition/)** - voice handling
+- **[gTTS](https://pypi.org/project/gTTS/)** — text-to-speech functionality
 
  ## License
 

@@ -45,8 +45,8 @@ Change the runtime to T4 GPU in google colab
 
 ### 1. Clone this Repository
 ```bash
-git clone https://github.com/<your-username>/Friday-AI-Assistant.git
-cd Friday-AI-Assistant
+git clone https://github.com/<your-username>/Friday-AI-Assistant-for-Visual-Accessibility.git
+cd Friday-AI-Assistant-for-Visual-Accessibility
 ```
 ### 2. Install dependencies
 ```bash

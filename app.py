@@ -360,4 +360,5 @@ with gr.Blocks(title="Friday, A Secure Multimodal Voice-Vision Assistant", css=C
 
         gr.Markdown(f"Note: Your current voice signature is used to verify your identity when using the Friday AI Assistant.")
 
-demo.launch(share=False)
+demo.launch(share=True)
+

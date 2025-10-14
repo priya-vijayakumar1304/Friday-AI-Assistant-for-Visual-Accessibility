@@ -73,11 +73,11 @@ Friday includes a simple voice authentication system:
 
 ## Future Enhancements
 Planned features for the next version of Friday:
-**Live Video Stream Processing:** Capture video or webcam feed in real time and provide live narration or scene understanding.
-**Object & Text Detection:** Integrate OCR and object detection for richer visual context.
-**Continuous Listening Mode:** Enable wake-word detection (e.g., “Hey Friday”) for a hands-free experience.
-**Offline Mode / Edge Deployment:** Optimize the model to run efficiently on edge devices for offline accessibility.
-**Multilingual Support:** Expand voice and text capabilities to multiple languages.
+- **Live Video Stream Processing:** Capture video or webcam feed in real time and provide live narration or scene understanding.
+- **Object & Text Detection:** Integrate OCR and object detection for richer visual context.
+- **Continuous Listening Mode:** Enable wake-word detection (e.g., “Hey Friday”) for a hands-free experience.
+- **Offline Mode / Edge Deployment:** Optimize the model to run efficiently on edge devices for offline accessibility.
+- **Multilingual Support:** Expand voice and text capabilities to multiple languages.
 
  ## License
 

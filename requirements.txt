@@ -6,3 +6,4 @@ Pillow
 gtts
 SpeechRecognition
 gradio
+easyocr

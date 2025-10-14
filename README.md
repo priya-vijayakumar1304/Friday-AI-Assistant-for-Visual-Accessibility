@@ -26,7 +26,7 @@ This project demonstrates **loading, saving and deploying** the `llava-hf/llava-
   - [PyTorch](https://pytorch.org/)  
   - [Gradio](https://gradio.app/)
   - [SpeechRecognition](https://pypi.org/project/SpeechRecognition/) for voice commands  
-  - [gTTS](https://pypi.org/project/gTTS/) or [pyttsx3](https://pypi.org/project/pyttsx3/) for text-to-speech feedback   
+  - [gTTS](https://pypi.org/project/gTTS/) for text-to-speech feedback   
 - **Dependencies:** Listed in `requirements.txt`
 
 ## Key Features

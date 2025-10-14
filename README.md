@@ -13,15 +13,14 @@ This project demonstrates **loading, saving and deploying** the `llava-hf/llava-
 
 ## Project structure:
 ```
-├── load_model_and_save.ipynb # Loads and saves the LLaVA model locally
-├── app.ipynb # Loads the saved model, adds voice features & Gradio frontend
+├── load_and_save_model.py # Loads and saves the LLaVA model locally
+├── app.py # Loads the saved model, adds voice features & Gradio frontend
 ├── requirements.txt # List of dependencies
 └── README.md # Project documentation
 ```
 ## Tech Stack
 
 - **Model:** [LLaVA Interleave Qwen 0.5B](https://huggingface.co/llava-hf/llava-interleave-qwen-0.5b-hf)  
-- **Environment:** Google Colab (T4 GPU runtime with CUDA)  
 - **Frameworks:**  
   - [Transformers (Hugging Face)](https://github.com/huggingface/transformers)  
   - [PyTorch](https://pytorch.org/)  
@@ -41,11 +40,10 @@ This project demonstrates **loading, saving and deploying** the `llava-hf/llava-
 ---
 
 ##  Setup & Usage Instructions
-Change the runtime to T4 GPU in google colab
 
 ### 1. Clone this Repository
 ```bash
-git clone https://github.com/<your-username>/Friday-AI-Assistant-for-Visual-Accessibility.git
+git clone https://github.com/priya-vijayakumar1304/Friday-AI-Assistant-for-Visual-Accessibility.git
 cd Friday-AI-Assistant-for-Visual-Accessibility
 ```
 ### 2. Install dependencies
@@ -53,13 +51,15 @@ cd Friday-AI-Assistant-for-Visual-Accessibility
 pip install -r requirements.txt
 ```
 ### 3. Load and Save the Model
-Open `load_model_and_save.ipynb` in Google Colab and run all cells.
-This notebook will:
-Download the pretrained `llava-hf/llava-interleave-qwen-0.5b-hf` model
-Save it locally in a specified directory (for faster access)
+```bash
+python load_model_and_save.py
+```
+This will download the pretrained `llava-hf/llava-interleave-qwen-0.5b-hf` model and save it locally in a specified directory (for faster access)
 
 ### 4. Run the App
-Open `app.ipynb` in Colab and run the cells to:
+```bash
+python app.py
+```
 - Load the locally saved model
 - Launch a Gradio interface for audio and image interaction
 You’ll get a public Gradio link to interact with Friday directly from your browser.
@@ -70,9 +70,6 @@ Friday includes a simple voice authentication system:
 - Verify on command – Friday compares your live voice to the registered one before executing actions.
 - Secure AI Access – Prevents unauthorized voice access while keeping interactions natural.
 - Voice data is processed locally — not sent to external APIs for privacy.
-
-### Drawback:
-This model hallucinates at times and so the accuracy drops. 
 
 ## Future Enhancements
 Planned features for the next version of Friday:

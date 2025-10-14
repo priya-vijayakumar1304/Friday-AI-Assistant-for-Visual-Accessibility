@@ -7,3 +7,4 @@ gtts
 SpeechRecognition
 gradio
 easyocr
+numpy

@@ -8,3 +8,4 @@ SpeechRecognition
 gradio
 easyocr
 numpy
+librosa

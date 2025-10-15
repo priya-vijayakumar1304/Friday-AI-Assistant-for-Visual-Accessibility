@@ -1,7 +1,7 @@
 # Friday - A Secure Multimodal AI Assistant for Visual Accessibility
 
 ## Description:
-This project is developed to propotype an application that assists visually impaired users by describing their surroundings through voice. The user can use simple voice commands such as “What’s around me?” or “Describe this scene.” and an image captured using the device camera, processes it with a vision-language model, and provides a spoken description of what’s detected — people, objects, actions, and scene context.
+This project is developed to propotype an application that assists visually impaired users by describing their surroundings through voice. The user can use simple voice commands such as “What’s around me?” or “Describe this scene.” and an image captured using the device camera, processes it with a vision-language model, and provides a spoken description of what’s detected — people, objects, actions, and scene context. It also reads the text in the image with the command "Read the text".
 
 It aims to create independence by enabling users to understand their environment, powered by AI-driven image captioning and text-to-speech (TTS) technologies.
 
@@ -26,7 +26,8 @@ This project demonstrates **loading, saving and deploying** the `llava-hf/llava-
   - [PyTorch](https://pytorch.org/)  
   - [Gradio](https://gradio.app/)
   - [SpeechRecognition](https://pypi.org/project/SpeechRecognition/) for voice commands  
-  - [gTTS](https://pypi.org/project/gTTS/) for text-to-speech feedback   
+  - [gTTS](https://pypi.org/project/gTTS/) for text-to-speech feedback
+  - EasyOCR for cpaturing text in the image
 - **Dependencies:** Listed in `requirements.txt`
 
 ## Key Features

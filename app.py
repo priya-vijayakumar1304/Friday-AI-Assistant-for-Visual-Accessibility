@@ -330,7 +330,7 @@ with gr.Blocks(title="Friday, A Secure Multimodal Voice-Vision Assistant", css=C
             # Column 1: Inputs - Voice & Camera
             with gr.Column(scale=1):
                 command_audio_input = gr.Audio(sources=["microphone"], type="filepath", label="🎙️ Voice Command")
-                image_input = gr.Image(sources=["webcam"], type="pil", label="📸 Live Image Capture")
+                image_input = gr.Image(sources=["webcam"], type="pil", label="📸 Live Image Capture", mirror_webcam=False)
                 run_button = gr.Button("▶️ Submit")
             # Column 2: Outputs - Text & Narration
             with gr.Column(scale=1):
@@ -361,4 +361,5 @@ with gr.Blocks(title="Friday, A Secure Multimodal Voice-Vision Assistant", css=C
         gr.Markdown(f"Note: Your current voice signature is used to verify your identity when using the Friday AI Assistant.")
 
 demo.launch(share=True)
+
 

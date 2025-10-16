@@ -13,15 +13,16 @@ This project demonstrates **loading, saving and deploying** the `llava-hf/llava-
 
 ## Project structure:
 ```
+├── scene_description.py    # image captioning and scene understanding
+├── read_text.py            # captures the text form image
+├── asr_tts_handle.py       # handles ASR and TTS functions
+├── voice_utils             # handles voice registration and verification
+|
+├── app.py                  # run the gradio app
 ├── load_and_save_model.py  # Loads and saves the LLaVA model locally
-├── app.py  # run the gradio app
-├── scene_description.py  # image captioning and scene understanding
-├── read_text.py  #captures the text form image
-├── asr_tts_handle.py  #handles ASR and TTS functions
-├── voice_utils  #handles voice registration and verification
-├── custom.css #for css styling
-├── requirements.txt  # List of dependencies
-└── README.md  # Project documentation
+├── custom.css              # for css styling
+├── requirements.txt        # List of dependencies
+└── README.md               # Project documentation
 ```
 ## Tech Stack
 

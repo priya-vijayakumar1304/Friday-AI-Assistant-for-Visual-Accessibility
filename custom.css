@@ -1,0 +1,73 @@
+/* 1. Global Styles and Font */
+.gradio-container {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f7f9fb; /* Lighter background */
+    padding: 20px;
+}
+.gradio-tabs {
+    border-radius: 20px; /* Larger radius */
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15); /* Stronger, softer shadow */
+    background-color: white;
+    padding: 30px; /* More internal padding */
+    border: none;
+}
+h1 {
+    color: #0d47a1; /* Deep blue title */
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+h2, h3 {
+    color: #374151; /* Subdued text color */
+    border-bottom: 1px solid #e5e7eb; /* Thinner, lighter separator */
+    padding-bottom: 8px;
+    margin-top: 15px;
+}
+
+/* 2. Tab Styling */
+.gradio-tabs button {
+    font-weight: 700;
+    border-radius: 10px 10px 0 0 !important;
+    color: #6b7280; /* Gray inactive tab text */
+    transition: all 0.2s ease-in-out;
+}
+.gradio-tabs button.selected {
+    color: #4c51bf !important; /* Indigo active tab text */
+    background-color: #f0f4f8 !important; /* Light background for active tab */
+    border-bottom: 3px solid #4c51bf !important; /* Highlight bottom border */
+}
+
+/* 3. Button Styling (Enhanced) */
+.gr-button {
+    background-color: #4c51bf; /* Primary indigo color */
+    color: white;
+    border: none;
+    border-radius: 12px; /* Slightly larger radius for button */
+    padding: 14px 25px; /* More padding */
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+.gr-button:hover {
+    background-color: #3c40a5; /* Darker indigo on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 8px 20px rgba(76, 81, 191, 0.5); /* Stronger shadow on hover */
+}
+
+/* 4. Input/Output Elements */
+.gr-textbox textarea, .gr-audio, .gr-image {
+    border-radius: 12px;
+    border: 1px solid #d1d5db; /* Lighter, cleaner border color */
+    background-color: #ffffff;
+    padding: 15px;
+    transition: border-color 0.3s;
+}
+.gr-textbox textarea:focus, .gr-audio:focus, .gr-image:focus {
+    border-color: #4c51bf; /* Highlight border on focus */
+    box-shadow: 0 0 0 2px rgba(76, 81, 191, 0.2);
+    outline: none;
+}
+.gr-audio-player audio {
+    border-radius: 12px;
+}

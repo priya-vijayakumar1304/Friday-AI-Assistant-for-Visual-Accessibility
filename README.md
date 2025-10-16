@@ -20,6 +20,7 @@ This project demonstrates **loading, saving and deploying** the `llava-hf/llava-
 |
 ├── app.py                  # run the gradio app
 ├── load_and_save_model.py  # Loads and saves the LLaVA model locally
+|
 ├── custom.css              # for css styling
 ├── requirements.txt        # List of dependencies
 └── README.md               # Project documentation

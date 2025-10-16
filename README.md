@@ -16,6 +16,12 @@ This project demonstrates **loading, saving and deploying** the `llava-hf/llava-
 ├── load_and_save_model.py # Loads and saves the LLaVA model locally
 ├── app.py # Loads the saved model, adds voice features & Gradio frontend
 ├── requirements.txt # List of dependencies
+├── load_and_save_model.py # Loads and saves the LLaVA model locally
+├── app.py # Loads the saved model, adds voice features & Gradio frontend
+├── requirements.txt # List of dependencies
+├── load_and_save_model.py # Loads and saves the LLaVA model locally
+├── app.py # Loads the saved model, adds voice features & Gradio frontend
+├── requirements.txt # List of dependencies
 └── README.md # Project documentation
 ```
 ## Tech Stack

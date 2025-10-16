@@ -1,7 +1,7 @@
 # Friday - A Secure Multimodal AI Assistant for Visual Accessibility
 
 ## Description:
-This project is developed to propotype an application that assists visually impaired users by describing their surroundings through voice. The user can use simple voice commands such as “What’s around me?” or “Describe this scene.” and an image captured using the device camera, processes it with a vision-language model, and provides a spoken description of what’s detected — people, objects, actions, and scene context. It also reads the text in the image with the command "Read the text".
+This project is developed to propotype an application that assists visually impaired users by describing their surroundings through voice. The user can use simple voice commands such as “What’s around me?”, “Describe this scene.”, or "Read the text" and friday will processes the captured image with a vision-language model and OCR tech, and provides a spoken description of what’s detected — people, objects, actions, scene context and the texts in the image. 
 
 It aims to create independence by enabling users to understand their environment, powered by AI-driven image captioning and text-to-speech (TTS) technologies.
 

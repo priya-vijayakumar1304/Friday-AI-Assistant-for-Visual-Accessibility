@@ -39,7 +39,8 @@ This project demonstrates **loading, saving and deploying** the `llava-hf/llava-
 
 - **Multimodal Interaction:** Combine **audio + image** input for smarter responses.  
 - **Voice Command Support:** Control Friday with spoken commands.  
-- **Voice Registration & Verification:** Securely register your voice and authenticate before running actions.  
+- **Voice Registration & Verification:** Securely register your voice and authenticate before running actions.
+- **Reads the text:** captures the text in the image and reads it.
 - **Local Model Loading:** Faster inference by loading saved models from disk.  
 - **Low Latency Deployment:** Uses locally saved model and GPU acceleration for real-time responses.  
 

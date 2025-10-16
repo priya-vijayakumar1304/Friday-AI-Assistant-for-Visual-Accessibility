@@ -55,23 +55,28 @@ This project demonstrates **loading, saving and deploying** the `llava-hf/llava-
 git clone https://github.com/priya-vijayakumar1304/Friday-AI-Assistant-for-Visual-Accessibility.git
 cd Friday-AI-Assistant-for-Visual-Accessibility
 ```
-### 2. Install dependencies
+### 2. Create and activate virtual environment
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-### 3. Load and Save the Model
+### 4. Load and Save the Model
 ```bash
 python load_model_and_save.py
 ```
 This will download the pretrained `llava-hf/llava-interleave-qwen-0.5b-hf` model and save it locally in a specified directory (for faster access)
 
-### 4. Run the App
+### 5. Run the App
 ```bash
 python app.py
 ```
 - Load the locally saved model
-- Launch a Gradio interface for audio and image interaction
-You’ll get a public Gradio link to interact with Friday directly from your browser.
+- Launch a Gradio interface for audio and image interaction.
+- You’ll get a public Gradio link to interact with Friday directly from your browser.
 
 ### Voice Registration & Verification
 Friday includes a simple voice authentication system:
